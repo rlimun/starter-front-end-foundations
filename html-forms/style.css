@@ -1,7 +1,23 @@
 body {
-  padding: 10px;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
 }
 
 input {
   margin: 5px;
 }
+

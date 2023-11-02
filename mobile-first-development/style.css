@@ -36,3 +36,32 @@ h3 {
 .item-double {
   flex: 2;
 }
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: red;
+}
+
+
+/* This applies from 0px to 600px */
+@media all and (max-width: 600px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* Groups and items (Desktop) */
+
+@media all and (min-width: 800px) {
+  section,
+  h1 {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
